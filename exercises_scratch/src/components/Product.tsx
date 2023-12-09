@@ -1,4 +1,3 @@
-import React from 'react';
 
 const Product: React.FC<{productName: string, price: number}> = ({productName, price}) => {
   return (<>

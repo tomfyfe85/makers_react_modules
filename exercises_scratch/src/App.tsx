@@ -2,6 +2,8 @@ import "./App.css";
 import Profile from "./components/Profile";
 import Product from "./components/Product"
 // import Button from "./components/Button";
+
+import Counter from "./components/Counter";
 function App() {
   const name: string = "Quakie Makers";
   const job: string = "Makers' fav duck";
@@ -15,6 +17,7 @@ function App() {
       <Profile name={name} job={job} birth_date ={birth_date} />
       <Product productName={productName} price={price} />
       {/* <Button names={['Anna', 'Jose', 'Lila']} /> */}
+      <Counter/>
     </>
   );
 }
