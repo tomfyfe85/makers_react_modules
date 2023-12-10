@@ -7,6 +7,7 @@ import ClickListener from "./components/ClickListener";
 import ConsoleLogger from "./components/ConsoleLogger";
 import Form from "./components/Form"
 import Joke from "./components/Joke";
+import Dice from "./components/Dice";
 function App() {
   const name: string = "Quakie Makers";
   const job: string = "Makers' fav duck";
@@ -26,7 +27,8 @@ function App() {
       <ClickListener />
       <ConsoleLogger />
       <Form />
-      <Joke/>
+      <Joke />
+      <Dice/>
     </>
   );
 }
