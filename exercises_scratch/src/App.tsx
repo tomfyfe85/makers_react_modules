@@ -5,7 +5,8 @@ import Product from "./components/Product"
 import Counter from "./components/Counter";
 import ClickListener from "./components/ClickListener";
 import ConsoleLogger from "./components/ConsoleLogger";
-
+import Form from "./components/Form"
+import Joke from "./components/Joke";
 function App() {
   const name: string = "Quakie Makers";
   const job: string = "Makers' fav duck";
@@ -23,7 +24,9 @@ function App() {
       {/* <Button names={['Anna', 'Jose', 'Lila']} /> */}
       <Counter />
       <ClickListener />
-      <ConsoleLogger/>
+      <ConsoleLogger />
+      <Form />
+      <Joke/>
     </>
   );
 }
