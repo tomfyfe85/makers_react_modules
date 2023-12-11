@@ -1,3 +1,8 @@
 07_ challenge 
-08 exercise2 and bonus (also need to add ts to forms)
-09 exercise2/challenge
+
+08 need to add ts to forms
+
+
+09 
+do TODO example
+exercise2/challenge
