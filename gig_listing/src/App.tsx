@@ -2,6 +2,7 @@ import "./App.css";
 import Gig from "./components/Gig";
 import Events from "./components/Events";
 function App() {
+
   const KEG_HEADER: string = "THE BROTHERS KEG";
   const KEG_IMAGE_SRC: string = "images/Brothers-Keg-2-1140x641.jpg";
   const KEG_IMAGE_TITLE: string = "lightening";
@@ -21,6 +22,7 @@ function App() {
   return (
     <>
       <Gig
+        gig_id={1}
         header={KEG_HEADER}
         imageSrc={KEG_IMAGE_SRC}
         imageTitle={KEG_IMAGE_TITLE}
@@ -28,8 +30,11 @@ function App() {
         date={KEG_DATE}
         time={KEG_TIME}
         location={KEG_LOCATION}
+        bands={bands}
+
       />
       <Gig
+        gid_id={2}
         header={SAB_HEADER}
         imageSrc={SAB_IMAGE}
         imageTitle={SAB_IMAGE_TITLE}
@@ -37,6 +42,7 @@ function App() {
         date={SAB_DATE}
         time={SAB_TIME}
         location={SAB_LOCATION}
+        bands={bands}
       />
       <Events/>
     </>
@@ -44,3 +50,4 @@ function App() {
 }
 
 export default App;
+

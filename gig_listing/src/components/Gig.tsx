@@ -8,7 +8,7 @@ const Gig: React.FC<{
   date: string;
   time: string;
   location: string
-}> = ({ header, imageSrc, imageTitle, description, date, time, location }) => {
+}> = ({gig_id, header, imageSrc, imageTitle, description, date, time, location, band, setBand }) => {
   const [fav, setFav] = useState<boolean>(false)
   
   const favorite = () => {

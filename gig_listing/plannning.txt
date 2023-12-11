@@ -25,3 +25,17 @@ allowed in the input, and letters are removed.
 - save event.target as a variable
 - if var === 0-9 setState(var)
 
+
+
+create AllGigs component
+create Bands component to house bands data
+import Bands into all gigs
+(test we can map Gig components using Band data)
+
+set up useState in AllGigs
+Band data get saved as state {bands, setBands}
+Pass band state as props to each gig component
+
+Take bands props and loop through
+
+
