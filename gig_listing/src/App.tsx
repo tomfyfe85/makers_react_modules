@@ -1,5 +1,6 @@
 import "./App.css";
 import Gig from "./components/Gig";
+import Events from "./components/Events";
 function App() {
   const KEG_HEADER: string = "THE BROTHERS KEG";
   const KEG_IMAGE_SRC: string = "images/Brothers-Keg-2-1140x641.jpg";
@@ -37,6 +38,7 @@ function App() {
         time={SAB_TIME}
         location={SAB_LOCATION}
       />
+      <Events/>
     </>
   );
 }

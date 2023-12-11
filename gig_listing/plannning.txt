@@ -1,0 +1,27 @@
+Challenge 07_Challenge
+Update your gig application so that the Gig component 
+doesn't have any state of its own. Instead, "lift" the
+state of the gigs into a parent component. Write some
+code so that instead of listing all gigs together, 
+"favourited" gigs are above other gigs.
+
+New component - AllGigs
+
+AllGigs component will handle the state
+
+AllGigs will handle gig components
+gigs start as false
+
+in AllGigs, jsx maps out <Gig/>'s
+
+
+08_exercise 2
+Add a phone number field to the form above. 
+Edit the handler function so that only numbers are 
+allowed in the input, and letters are removed.
+
+- add the field
+- add state
+- save event.target as a variable
+- if var === 0-9 setState(var)
+
