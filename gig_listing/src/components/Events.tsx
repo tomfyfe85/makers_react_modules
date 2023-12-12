@@ -27,11 +27,6 @@ const Events: React.FC = () => {
     newEvent();
   }, []);
 
-
-
-console.log("setTimeout() example...");
-
-  console.log(events);
   return events ? (
     <>
       <h2>Events</h2>
