@@ -87,14 +87,6 @@ const AllGigs = () => {
 
   })
   
-  console.log('favArray')
-  console.log(favArray)
-  console.log('notFavArray')
-  console.log(notFavArray)
-
-  
-
-
     return (
       <>
         <h1>FAVORITES</h1>

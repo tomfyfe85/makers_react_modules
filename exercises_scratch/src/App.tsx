@@ -28,7 +28,7 @@ function App() {
       <ConsoleLogger />
       <Form />
       <Joke />
-      <Dice/>
+      <Dice />
     </>
   );
 }
